@@ -74,3 +74,11 @@ class PostsController < ApplicationController
   
 end
 ```
+
+## Using
+
+Add gatekeeper-rails to your Gemfile:
+
+```ruby
+gem 'gatekeeper-rails', :require => 'gatekeeper'
+```
