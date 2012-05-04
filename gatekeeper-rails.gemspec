@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", '>= 2.1.0'
   
   s.add_development_dependency "step-up"
-  s.add_development_dependency "rails", '~> 3.1.0'
+  s.add_development_dependency "rails", '~> 3.2.0'
 
   excepts = %w[
     .gitignore

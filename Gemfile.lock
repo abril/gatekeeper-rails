@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gatekeeper-rails (0.0.0)
+    gatekeeper-rails (0.1.0)
       rails (>= 2.1.0)
 
 GEM
@@ -91,4 +91,5 @@ PLATFORMS
 
 DEPENDENCIES
   gatekeeper-rails!
+  rails (~> 3.2.0)
   step-up
