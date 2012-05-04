@@ -75,6 +75,27 @@ class PostsController < ApplicationController
 end
 ```
 
+## More examples
+
+You can allow some actions without a block:
+
+```ruby
+allow :index, :new
+
+allow :create, :update, :destroy do
+  # your condition here
+end
+```
+
+You can allow all actions and restrict a specific one:
+
+```ruby
+allow :all
+
+allow :create do
+  # your condition here
+end
+```
 ## Using
 
 Add gatekeeper-rails to your Gemfile:
