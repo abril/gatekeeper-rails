@@ -103,3 +103,8 @@ Add gatekeeper-rails to your Gemfile:
 ```ruby
 gem 'gatekeeper-rails', :require => 'gatekeeper'
 ```
+
+## Autors
+
+* [Eric Fer](https://github.com/ericfer)  
+* [Lucas Fais](https://github.com/lucasfais)
