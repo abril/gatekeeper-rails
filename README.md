@@ -104,7 +104,7 @@ Add gatekeeper-rails to your Gemfile:
 gem 'gatekeeper-rails', :require => 'gatekeeper'
 ```
 
-## Autors
+## Authors
 
 * [Eric Fer](https://github.com/ericfer)  
 * [Lucas Fais](https://github.com/lucasfais)
