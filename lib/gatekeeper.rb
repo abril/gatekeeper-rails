@@ -21,7 +21,7 @@ module Gatekeeper
   def self.included(receiver)
     receiver.extend ClassMethods
     receiver.instance_eval do
-      before_filter :authorize
+      before_action :authorize
 
       class << self
         attr_accessor :actions_access_rules, :access_denied_response
