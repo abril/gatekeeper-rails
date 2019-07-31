@@ -6,5 +6,5 @@ module Gatekeeper
   #   version = StepUp::Driver::Git.last_version
   # end
   # version = "0.0.0" if version.nil?
-  VERSION = "1.0.0"
+  VERSION = "0.1.0"
 end
